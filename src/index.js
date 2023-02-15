@@ -2,9 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import '../src/components/Navbar/Navbar.css';
-import {App} from './components/App.jsx';
-
-
+import {App} from './components/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

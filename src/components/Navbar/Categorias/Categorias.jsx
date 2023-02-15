@@ -1,18 +1,21 @@
+import { Link } from "react-router-dom"
 export const Categorias = () => {
     return (
-        <li className="nav-item dropdown" id="Cat">
-            <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tienda</a>
+        <li className="nav-item dropdown">
+            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <button className="btn btn-light">Tienda</button>
+            </a>
+            
             <ul className="dropdown-menu">
                 <li><a href="#" className="dropdown-item">Vinos &raquo;</a>
                     <ul className="dropdown-menu submenu">
-                    <li><a className="dropdown-item" href="#">Tintos</a></li>
-                    <li><a className="dropdown-item" href="#">Blancos</a></li>
-                    <li><a className="dropdown-item" href="#">Espumantes</a></li>
-                    <li><a className="dropdown-item" href="#">Otros</a></li>
+                        <li><Link className="dropdown-item" to={'/category/Tintos'}>Tintos</Link></li>
+                        <li><Link className="dropdown-item" to={'/category/Blancos'}>Blancos</Link></li>
+                        <li><Link className="dropdown-item" to={'/category/Espumantes'}>Espumantes</Link></li>
                     </ul>
                 </li>
                 <li><hr className="dropdown-divider" /></li>
-                <li><a className="dropdown-item" href="#">Otras bebidas</a></li>
+                <li><Link className="dropdown-item" to={'/category/Otras'}>Otras bebidas</Link></li>
             </ul>
         </li>
     );

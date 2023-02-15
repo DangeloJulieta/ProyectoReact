@@ -1,15 +1,23 @@
 import './App.css';
-//Components
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+//Components 
 import { Navbar } from './Navbar/Navbar';
-import { ItemCount } from './ItemCount/ItemCount';
 import { ItemListContainer } from './ItemListContainer/ItemListContainer';
+import { ItemDetailContainer } from './ItemDetailContainer/ItemDetailContainer';
 
 export const App = () => {
   return (
-  <>
-    <Navbar nombre={" "}/>
-    <ItemCount ValInicial={0} stock={15}/>
-    <ItemListContainer greeting={"Prox productos"}/>
-  </>
+    <>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<ItemListContainer />} />
+          <Route path='/category/:idCategoria' element={<ItemListContainer />} />
+          <Route path='/item/:id' element={<ItemDetailContainer />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   )
 }

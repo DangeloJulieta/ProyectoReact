@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "idCategoria": "tintos",
+        "nombre": "Animal Malbec",
+        "productor": "Wine is Art",
+        "variedad": "Malbec",
+        "precio": 1300,
+        "stock": 21,
+        "img": "tinto-malbec-animal.jpg"
+    },
+    {
+        "id": 2,
+        "idCategoria": "tintos",
+        "nombre": "Luigi Bosca Malbec",
+        "productor": "Luigi Bosca",
+        "variedad": "Malbec",
+        "precio": 2950,
+        "stock": 18,
+        "img": "tinto-malbec-luigi.jpg"
+    },
+    {
+        "id": 3,
+        "idCategoria": "tintos",
+        "nombre": "Salentein Reserve Malbec",
+        "productor": "Salentein",
+        "variedad": "Malbec",
+        "precio": 1500,
+        "stock": 32,
+        "img": "tinto-malbec-salentein.jpg"
+    },
+    {
+        "id": 4,
+        "idCategoria": "blancos",
+        "nombre": "Luigi Bosca - Chardonnay",
+        "productor": "Luigi Bosca",
+        "variedad": "Chardonnay",
+        "precio": 3000,
+        "stock": 10,
+        "img": "blanco-chardonnay-luigi.jpg"
+    },
+    {
+        "id": 5,
+        "idCategoria": "blancos",
+        "nombre": "Luigi Bosca - Sauvignon Blanc",
+        "productor": "Luigi Bosca",
+        "variedad": "Sauvignon Blanc",
+        "precio": 3900,
+        "stock": 3,
+        "img": "blanco-sauvignon-luigi.jpg"
+    },
+    {
+        "id": 6,
+        "idCategoria": "blancos",
+        "nombre": "Cafayate - Cosecha tardía",
+        "productor": "Etchart",
+        "variedad": "Torrontés",
+        "precio": 710,
+        "stock": 16,
+        "img": "blanco-torrontes-cafayate.jpg"
+    },
+    {
+        "id": 7,
+        "idCategoria": "espumantes",
+        "nombre": "Baron B - Extra Brut",
+        "productor": "Baron B",
+        "variedad": "Extra Brut",
+        "precio": 3200,
+        "stock": 5,
+        "img": "espumante-ebrut-baronb.jpg"
+    },
+    {
+        "id": 8,
+        "idCategoria": "espumantes",
+        "nombre": "Chandon - Extra Brut",
+        "productor": "Chandon",
+        "variedad": "Extra Brut",
+        "precio": 2500,
+        "stock": 9,
+        "img": "espumante-ebrut-chandon.jpg"
+    },
+    {
+        "id": 9,
+        "idCategoria": "espumantes",
+        "nombre": "Luigi Bosca - Extra Brut",
+        "productor": "Luigi Bosca",
+        "variedad": "Extra Brut",
+        "precio": 2900,
+        "stock": 11,
+        "img": "espumante-ebrut-luigi.jpg"
+    },
+    {
+        "id": 10,
+        "idCategoria": "otras",
+        "nombre": "Baileys Irish Cream",
+        "productor": "Baileys",
+        "variedad": "Licor",
+        "precio": 5300,
+        "stock": 20,
+        "img": "otras-baileys.jpg"
+    },
+    {
+        "id": 11,
+        "idCategoria": "otras",
+        "nombre": "Havana Club Añejo Especial",
+        "productor": "Havana Club",
+        "variedad": "Ron",
+        "precio": 4100,
+        "stock": 50,
+        "img": "otras-ron.jpg"
+    },
+    {
+        "id": 12,
+        "idCategoria": "otras",
+        "nombre": "Johnnie Walker Black Label",
+        "productor": "Johnnie Walker",
+        "variedad": "Whisky",
+        "precio": 9000,
+        "stock": 7,
+        "img": "otras-whisky.png"
+    }
+]

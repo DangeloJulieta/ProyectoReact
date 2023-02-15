@@ -3,9 +3,9 @@ import { Categorias } from "./Categorias/Categorias";
 import { Secciones } from "./Secciones/Secciones";
 import { Logo } from "./Logo/Logo.jsx";
 
-export const Navbar = ({ nombre }) => {
+export const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg bg-dark">
+        <nav className="navbar navbar-expand-lg bg-primary">
             <div>
             <Logo />
             </div>
@@ -24,5 +24,3 @@ export const Navbar = ({ nombre }) => {
         </nav>
     );
 }
-
-export default Navbar;
