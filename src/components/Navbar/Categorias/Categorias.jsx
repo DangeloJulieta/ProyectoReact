@@ -9,13 +9,13 @@ export const Categorias = () => {
             <ul className="dropdown-menu">
                 <li><a href="#" className="dropdown-item">Vinos &raquo;</a>
                     <ul className="dropdown-menu submenu">
-                        <li><Link className="dropdown-item" to={'/category/Tintos'}>Tintos</Link></li>
-                        <li><Link className="dropdown-item" to={'/category/Blancos'}>Blancos</Link></li>
-                        <li><Link className="dropdown-item" to={'/category/Espumantes'}>Espumantes</Link></li>
+                        <li><Link className="dropdown-item" to={'/category/tintos'}>Tintos</Link></li>
+                        <li><Link className="dropdown-item" to={'/category/blancos'}>Blancos</Link></li>
+                        <li><Link className="dropdown-item" to={'/category/espumantes'}>Espumantes</Link></li>
                     </ul>
                 </li>
                 <li><hr className="dropdown-divider" /></li>
-                <li><Link className="dropdown-item" to={'/category/Otras'}>Otras bebidas</Link></li>
+                <li><Link className="dropdown-item" to={'/category/otras'}>Otras bebidas</Link></li>
             </ul>
         </li>
     );
